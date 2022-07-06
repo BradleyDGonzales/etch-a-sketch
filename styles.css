@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --grid-cols: 16;
+    --grid-rows: 16;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    width: 600px;
+    height: 600px;
+    box-shadow: 0px 0px 4px 1px black;
+}
+.resetbutton {
+    display: flex;
+
+}
